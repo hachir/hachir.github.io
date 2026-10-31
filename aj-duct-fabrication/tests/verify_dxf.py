@@ -30,6 +30,7 @@ for item in metadata:
         assert math.isclose(actual * scale, item["bounds"][key], abs_tol=1e-4), item["name"]
 with zipfile.ZipFile(root / "sheets.zip") as archive:
     assert archive.testzip() is None
+    assert all(info.date_time[:3] == (1980, 1, 1) for info in archive.infolist())
     assert set(archive.namelist()) == {"sheet-01.dxf", "notes.txt"}
     assert b"EOF" in archive.read("sheet-01.dxf")
 print(f"Verified {len(metadata)} DXF files: 16 patterns x 2 units x 2 versions; ZIP CRC passed.")
