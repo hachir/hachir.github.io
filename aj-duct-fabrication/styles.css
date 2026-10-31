@@ -7,3 +7,67 @@
 @media(max-width:760px){.topbar{min-height:73px;padding:12px 15px;flex-wrap:wrap;gap:0;row-gap:14px}.brand-icon{width:36px;height:39px}.brand-icon svg{width:28px;height:28px}.brand{gap:8px}.brand b{font-size:19px}.brand b span{font-size:14px}.brand small{font-size:8px}.top-actions .btn{font-size:10px;padding:9px 11px;min-height:33px}.top-actions{margin-left:auto}.top-nav{order:3;width:100%;justify-content:space-between;gap:8px;height:37px}.nav{font-size:11px}.nav.active:after{bottom:-12px}.projectbar{padding:13px 15px;flex-wrap:wrap;gap:12px}.project-name{gap:9px;width:100%}.project-name b{font-size:11px}.project-name .tiny-label{font-size:9px}.project-name .pill{margin-left:auto;font-size:9px}.project-tools{width:100%;justify-content:space-between}.project-tools .text-btn{font-size:9px}.workspace{display:flex;flex-direction:column;padding:13px;gap:18px}.workspace>*{width:100%;direction:ltr}.library{display:block;border-radius:8px}.library .panel-heading{padding:14px 14px 9px}.library .panel-heading>div{display:flex;align-items:center;gap:12px;flex-direction:row-reverse}.library .panel-heading h2{margin:0;font-size:13px}.library .search{margin:7px 13px 10px;padding:9px}.categories{justify-content:start;padding:0 12px 10px}.categories button{font-size:9px;padding:6px 12px}.pattern-list{display:flex;flex-direction:row;gap:6px;padding:0 10px 12px;max-height:none;direction:ltr}.pattern-button{min-width:180px;max-width:180px;padding:9px;gap:9px;background:#fcfdf9;border-color:#e8eddf}.pattern-info b{font-size:10px}.pattern-info small{font-size:8px}.editor h1{font-size:22px}.editor-heading{margin-bottom:16px;padding:0 3px}.breadcrumbs{font-size:9px;margin-bottom:5px}.subtitle{font-size:9px}.status{font-size:8px;padding:6px 8px}.canvas{height:365px}.canvas-toolbar{padding:9px 10px;flex-wrap:wrap;gap:9px;justify-content:space-between}.canvas-tools{gap:7px}.canvas-tools .check-label{font-size:9px}.canvas-tools .check-label:nth-child(2){display:none}.toolbar-divider{display:none}.view-toggle button{font-size:10px;padding:6px 9px}.canvas-meta{top:16px;left:14px;font-size:7px}.canvas-meta>span:last-child{margin-left:3px;font-size:7px}.canvas-footer{padding:8px 12px;gap:5px}.legend{font-size:8px;gap:12px}.sheet-navigation{font-size:8px}.sheet-navigation .icon-btn{width:21px;min-width:21px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:11px 0}.metric{padding:13px 15px;gap:12px}.metric-symbol{display:block;font-size:23px;color:#93a783}.metric strong{font-size:20px}.metric span{font-size:10px;margin-bottom:7px}.fabrication-note{padding:13px;font-size:10px}.parts-card{margin-top:15px}.inspector{position:static;display:grid;grid-template-columns:1fr 1fr}.inspector .panel-heading,.inspector .units-row,.inspector .dimension-diagram,#dimensionsForm{grid-column:1/-1}.inspector .dimension-diagram{height:100px}.inspector .dimension-diagram svg{height:90px}.inspector .dimension-fields{grid-template-columns:repeat(2,1fr);gap:15px}.inspector .panel-heading{padding:19px 19px 15px}.field{font-size:11px}.field input{font-size:16px;min-height:42px}.field select{font-size:12px;min-height:40px}.field-hint{font-size:10px}.settings{grid-column:1/-1;padding:0 18px 18px}.settings summary{font-size:12px}.settings .field-grid{gap:15px}.export-settings{grid-column:1/-1}.export-settings .btn-green{font-size:14px;min-height:45px}.export-settings .text-btn{font-size:11px}.export-settings .check-label{font-size:11px}.export-settings .field-hint{font-size:10px}#dimensionsForm{padding:0 18px 18px}.inspector #addToJob{font-size:12px;min-height:42px}.inspector .units-row{font-size:11px}.segmented button{font-size:12px;padding:7px 14px}.projects-view{padding:28px 18px}.projects-heading{display:block}.projects-heading .btn{margin-top:20px}.project-cards{grid-template-columns:1fr}.app-footer{flex-wrap:wrap;justify-content:center;padding:18px 15px;gap:12px;font-size:8px}.app-footer span:nth-child(2){width:100%;text-align:center;order:3}.job-dialog{padding:18px}.dialog-heading h2{font-size:20px}.job-item{gap:9px;flex-wrap:wrap}.job-item-main{min-width:180px}.job-item-main b{font-size:11px}.job-item .pattern-icon{width:38px;height:38px}.job-item-actions{margin-left:auto}.job-item-actions button{font-size:11px}.job-qty{font-size:16px;min-height:39px}.job-dialog-footer{flex-wrap:wrap;justify-content:center;gap:10px}.job-dialog-footer .btn{font-size:11px}.job-summary{font-size:10px;gap:10px}.canvas-bottom{left:13px;right:13px;bottom:13px}.projects-heading h1{font-size:24px}.toast{font-size:11px}.help-dialog{font-size:11px;padding:20px}}
 @media(max-width:380px){.brand b span{font-size:12px}.brand b{font-size:17px}.top-actions .btn{font-size:9px}.top-actions .btn svg{display:none}.canvas-tools{gap:4px}.view-toggle button{padding:6px;font-size:9px}.canvas{height:310px}.editor h1{font-size:20px}.status{font-size:7px}.legend{gap:7px;font-size:7px}.legend i{width:12px}.canvas-footer{padding:8px}.canvas-meta>span:last-child{display:none}}
 @media print{body{background:white}.topbar,.projectbar,.library,.inspector,.app-footer,.canvas-toolbar,.canvas-bottom,.top-nav{display:none!important}.workspace{display:block;padding:0}.canvas{height:500px}.canvas:before{display:none}.canvas-card,.metrics,.parts-card{break-inside:avoid}}
+
+/* Blue steel palette: clear control hierarchy and readable engineering annotations. */
+:root{--ink:#0f172a;--text:#26354b;--muted:#52647b;--green:#2563eb;--mint:#dbeafe;--border:#d8e2ef;--soft:#eef3f9;--dark:#0f1c32;--orange:#b45309;--red:#b42318;background:#f3f6fb}
+.topbar{background:#0f1c32;border-bottom-color:#253c5d;box-shadow:0 3px 14px #0f172a12}
+.brand{color:#fff}.brand-icon{background:#2563eb;color:#fff;box-shadow:0 3px 13px #2563eb40}
+.brand small,.topbar .local-state{color:#b6c7de}.topbar .local-state i{background:#38bdf8}
+.nav{color:#c4d2e5}.nav:hover,.nav.active{color:#93c5fd}.nav.active:after{background:#60a5fa}
+.nav i{background:#263e60;color:#dbeafe}.avatar{background:#263e60;border-color:#47648b;color:#dbeafe}
+.topbar .btn-dark{background:#2563eb;color:#fff;border:1px solid #60a5fa55}.topbar .btn-dark:hover{background:#1d4ed8}
+.projectbar{background:#fff;border-bottom-color:#d8e2ef}.project-name b{color:#18283e}.plain span{color:#536b88}
+.subtle{background:#edf3fc;border-color:#d2e0f4;color:#315a90}.tiny-label{color:#52647b}
+.panel,.canvas-card,.parts-card,.metric,.project-card{border-color:#d8e2ef;box-shadow:0 2px 7px #0f172a04}
+.panel-heading h2,.editor h1,.section-row h2,.project-card h2,.projects-heading h1{color:#0f1c32}
+.library{background:#14243d;border-color:#203b60;box-shadow:0 8px 24px #14243d14}
+.library .panel-heading h2{color:#f8fbff}.library .tiny-label{color:#a9c1df}
+.library .count{background:#263e60;border-color:#3f6089;color:#e0edff}
+.library .search{background:#1c304e;border-color:#3d5577;color:#bfd1ea}
+.library .search input{color:#f8fbff;font-size:11px}.library .search input::placeholder{color:#b9cbe3}
+.library .categories button{color:#c6d5e9;background:#1b304e}.library .categories button:hover{background:#2a4368}
+.library .categories button.active{color:#fff;background:#2563eb}
+.library .pattern-list{scrollbar-color:#49688c transparent}
+.library .pattern-button{color:#e5eefb;background:transparent;border-color:transparent}
+.library .pattern-button:hover{background:#203855;border-color:#395775}
+.library .pattern-button.active{background:#1e40af;border-color:#60a5fa;box-shadow:inset 3px 0 0 #7dd3fc}
+.library .pattern-info b{color:#e5eefb}.library .pattern-info small{color:#b3c6df;font-size:9px}
+.library .pattern-button.active .pattern-info b{color:#fff}.library .pattern-button.active .pattern-info small{color:#dbeafe}
+.library .pattern-icon{background:#203655;border-color:#3c567b;color:#aacbff}
+.library .pattern-button.active .pattern-icon{background:#2563eb;border-color:#93c5fd;color:#fff}
+.library .pattern-select-dot{background:#7dd3fc}.library .no-patterns{color:#c4d5ee}
+.library-footer{background:#102039;border-color:#304b6c;color:#c4d5ee}.library-footer small{color:#a9c1df}.library-footer .engine-dot{background:#38bdf8}
+.breadcrumbs,.subtitle{color:#52647b}.breadcrumbs span:last-child{color:#1d4ed8}.dot{color:#64748b}
+.status{background:#dcfce7;border-color:#a7dfbc;color:#116036}.status.invalid{background:#fff1f2;border-color:#fecdd3;color:#b42318}
+.btn-green{background:linear-gradient(130deg,#2563eb,#1d4ed8);box-shadow:0 4px 10px #2563eb22;color:#fff}
+.btn-green:hover{background:#1e40af}.btn-outline{border-color:#9ab8eb;color:#1d4ed8;background:#fff}.btn-outline:hover{background:#edf4ff}
+.text-btn{color:#1d4ed8}.text-btn:hover{color:#1e3a8a}.inspector #addToJob{background:#eff6ff;border-color:#a4c3fa;color:#1d4ed8}
+.canvas-toolbar,.canvas-footer{background:#fff;border-color:#d8e2ef}.toolbar-divider{background:#ccd8e8}
+.view-toggle,.segmented{background:#e8eff9;border-color:#ccdbee}.view-toggle button,.segmented button{color:#425d7e}
+.view-toggle button.active,.segmented button.active{background:#2563eb;color:#fff;box-shadow:0 2px 5px #2563eb25}
+.check-label,.zoom-label,.sheet-navigation,.legend{color:#475d79}.icon-btn{color:#3f5879}.icon-btn:hover{background:#e2edff;color:#1d4ed8}
+.canvas{background:#f4f8ff}.canvas:before{background-image:linear-gradient(#7393c21c 1px,transparent 1px),linear-gradient(90deg,#7393c21c 1px,transparent 1px)}
+.canvas-meta,.canvas-meta>span:last-child,.canvas-bottom{color:#506a8c}.canvas-meta b{color:#24496f}.live-mark{background:#2563eb}
+.legend i{border-color:#2563eb}.legend .legend-bend{border-color:#b45309}
+.metric-symbol{color:#2563eb}.metric strong{color:#152e52}.metric span,.metric strong small{color:#52647b}
+.usage-track{background:#e5edfa}.usage-track i{background:#2563eb}
+.fabrication-note{background:#eef5ff;border-color:#c2d7f7;color:#385476}.fabrication-note b{color:#1e40af;font-size:11px}
+.fabrication-note .cam-note{color:#52647b}.note-icon{border-color:#6a92c9;color:#1d4ed8}
+th{background:#f1f5fb;color:#445b79;border-color:#dfe8f4;font-weight:600}td{color:#334c6d;border-color:#e6edf7}td:first-child{color:#214d89}
+.units-row,.settings summary{color:#304b70}.dimension-diagram{background:#eff6ff;border-color:#b8d0f3;color:#2c67bd}.dimension-diagram svg text{fill:#315b94}
+.field{color:#334b69;font-weight:600}.field input,.field select,.job-qty{color:#142c4b;border-color:#b9c9df;background:#fcfdff}
+.field input{font-size:13px;font-weight:500}.field input:focus,.field select:focus,.job-qty:focus{outline:none;border-color:#2563eb;box-shadow:0 0 0 3px #2563eb20}
+.field .field-unit,.unit-text{color:#526a8b}.unit-text{float:right}.field-hint{color:#52647b}.field-hint b{color:#1e40af}
+.field input[aria-invalid=true]{border-color:#e07c75;background:#fff6f5}.inspector-separator{background:#dfe7f2}
+.settings,.export-settings{border-color:#dbe5f2}.export-settings{background:#f5f8fe}.export-settings .check-label{color:#3f5879}
+.validation-errors{background:#fff1f2;border-color:#f4b7bc;color:#a31c26}.canvas-error{background:#fffaf5f5;border-color:#e9c39b;color:#874010}
+.project-card .card-icon{background:#eaf2ff;border-color:#c2d6f6;color:#2563eb}.project-card p{color:#52647b}
+.empty-state{background:#fff;border-color:#b3c7e6;color:#52647b}.empty-state b{color:#244a81}.delete-link{color:#b42318}
+.app-footer{border-color:#d8e2ef;color:#52647b}.app-footer a{color:#1d4ed8}
+dialog{border-color:#becfe5;box-shadow:0 24px 100px #0f172a35}dialog::backdrop{background:#0f1c326b}
+.job-summary{background:#eef5ff;border-color:#c6d9f7;color:#2b527f}.job-item{border-color:#dfe8f4}
+.pattern-icon{background:#eff6ff;border-color:#c7d9f5;color:#2563eb}.job-item-main p,.help-dialog p{color:#52647b}
+.job-item-actions button{color:#1d4ed8}.job-item-actions button:last-child{color:#b42318}
+.toast{background:#142b4d;border-color:#5677a4;color:#fff;box-shadow:0 8px 25px #0f172a30}
+@media(max-width:760px){.field input{font-size:16px}.library .pattern-info b{font-size:11px}.library .pattern-info small{font-size:8px}}
+@media print{.canvas{background:white}.panel,.canvas-card,.parts-card,.metric{box-shadow:none}}
