@@ -8,66 +8,31 @@
 @media(max-width:380px){.brand b span{font-size:12px}.brand b{font-size:17px}.top-actions .btn{font-size:9px}.top-actions .btn svg{display:none}.canvas-tools{gap:4px}.view-toggle button{padding:6px;font-size:9px}.canvas{height:310px}.editor h1{font-size:20px}.status{font-size:7px}.legend{gap:7px;font-size:7px}.legend i{width:12px}.canvas-footer{padding:8px}.canvas-meta>span:last-child{display:none}}
 @media print{body{background:white}.topbar,.projectbar,.library,.inspector,.app-footer,.canvas-toolbar,.canvas-bottom,.top-nav{display:none!important}.workspace{display:block;padding:0}.canvas{height:500px}.canvas:before{display:none}.canvas-card,.metrics,.parts-card{break-inside:avoid}}
 
-/* Light turquoise palette with dark readable labels and distinct cutting references. */
-:root{--ink:#15383c;--text:#264549;--muted:#506d70;--green:#0f766e;--mint:#d1f5ec;--border:#cde6df;--soft:#edf9f5;--dark:#173c40;--orange:#b45309;--red:#b42318;background:#f3fbf9}
-.topbar{background:#fff;border-bottom-color:#c8e7df;box-shadow:0 3px 14px #17413a08}
-.brand{color:#15383c}.brand-icon{background:#7ce6d8;color:#155e57;box-shadow:0 3px 13px #4dcbb622}
-.brand small,.topbar .local-state{color:#506d70}.topbar .local-state i{background:#159b85}
-.nav{color:#506d70}.nav:hover,.nav.active{color:#0f766e}.nav.active:after{background:#20b9a4}
-.nav i{background:#dcf5ee;color:#185f55}.avatar{background:#dcf5ee;border-color:#b5e1d6;color:#185f55}
-.topbar .btn-dark{background:#7ce6d8;color:#103e3d;border:1px solid #4bc7b4}.topbar .btn-dark:hover{background:#5bd6c4}
-.projectbar{background:#fafffd;border-bottom-color:#d2e9e2}.project-name b{color:#173c40}.plain span{color:#527471}
-.subtle{background:#e5f8f1;border-color:#c1e5d8;color:#27685a}.tiny-label{color:#506d70}
-.panel,.canvas-card,.parts-card,.metric,.project-card{border-color:#cde6df;box-shadow:0 2px 7px #123d3104}
-.panel-heading h2,.editor h1,.section-row h2,.project-card h2,.projects-heading h1{color:#15383c}
-.library{background:#e5f8f3;border-color:#b9e5d8;box-shadow:0 8px 24px #327d6710}
-.library .panel-heading h2{color:#153e3e}.library .tiny-label{color:#3f7068}
-.library .count{background:#d0f2e7;border-color:#a8dbcd;color:#1f6257}
-.library .search{background:#fafffd;border-color:#afd8cd;color:#4b7a70}
-.library .search input{color:#1b4641;font-size:11px}.library .search input::placeholder{color:#52746f}
-.library .categories button{color:#36685d;background:#d8f1e8}.library .categories button:hover{background:#c1eadd}
-.library .categories button.active{color:#103e3d;background:#7ce6d8}
-.library .pattern-list{scrollbar-color:#7ebfaf transparent}
-.library .pattern-button{color:#234b45;background:transparent;border-color:transparent}
-.library .pattern-button:hover{background:#d1f1e6;border-color:#9ed6c5}
-.library .pattern-button.active{background:#a2ebde;border-color:#27ad97;box-shadow:inset 3px 0 0 #0f766e}
-.library .pattern-info b{color:#234b45}.library .pattern-info small{color:#496e65;font-size:9px}
-.library .pattern-button.active .pattern-info b{color:#113f39}.library .pattern-button.active .pattern-info small{color:#235c50}
-.library .pattern-icon{background:#f7fffb;border-color:#b0dace;color:#278575}
-.library .pattern-button.active .pattern-icon{background:#d7fbf0;border-color:#50bda6;color:#0a6c59}
-.library .pattern-select-dot{background:#0f766e}.library .no-patterns{color:#416d62}
-.library-footer{background:#d9f2e8;border-color:#b2ddcd;color:#386858}.library-footer small{color:#4d7668}.library-footer .engine-dot{background:#159b85}
-.breadcrumbs,.subtitle{color:#506d70}.breadcrumbs span:last-child{color:#0f766e}.dot{color:#63847d}
-.status{background:#dcfce7;border-color:#a7dfbc;color:#116036}.status.invalid{background:#fff1f2;border-color:#fecdd3;color:#b42318}
-.btn-green{background:linear-gradient(130deg,#92eadd,#72dfcc);box-shadow:0 4px 10px #39af9020;color:#103e3d;border:1px solid #45bfa6}
-.btn-green:hover{background:#5bd6bc}.btn-outline{border-color:#94cbb8;color:#146052;background:#fff}.btn-outline:hover{background:#e4faf1}
-.text-btn{color:#0f766e}.text-btn:hover{color:#14594c}.inspector #addToJob{background:#e9fbf4;border-color:#9dd8c2;color:#146052}
-.canvas-toolbar,.canvas-footer{background:#fff;border-color:#cde6df}.toolbar-divider{background:#c6dfd7}
-.view-toggle,.segmented{background:#e4f5ee;border-color:#bfded0}.view-toggle button,.segmented button{color:#3b695b}
-.view-toggle button.active,.segmented button.active{background:#8ae6d3;color:#103e3d;box-shadow:0 2px 5px #19946f18}
-.check-label,.zoom-label,.sheet-navigation,.legend{color:#4c6f63}.icon-btn{color:#3e6d5a}.icon-btn:hover{background:#d9f5e8;color:#0f766e}
-.canvas{background:#f5fcf9}.canvas:before{background-image:linear-gradient(#6c9c861b 1px,transparent 1px),linear-gradient(90deg,#6c9c861b 1px,transparent 1px)}
-.canvas-meta,.canvas-meta>span:last-child,.canvas-bottom{color:#55796a}.canvas-meta b{color:#2a6254}.live-mark{background:#0f8e76}
-.legend i{border-color:#0b8174}.legend .legend-bend{border-color:#b45309}
-.metric-symbol{color:#168d73}.metric strong{color:#194a3b}.metric span,.metric strong small{color:#506d70}
-.usage-track{background:#dff2e8}.usage-track i{background:#21aa86}
-.fabrication-note{background:#eaf9f0;border-color:#bfe5ce;color:#3b6650}.fabrication-note b{color:#24684a;font-size:11px}
-.fabrication-note .cam-note{color:#506d70}.note-icon{border-color:#7eb69b;color:#256e4e}
-th{background:#eef9f2;color:#476f59;border-color:#dcecdf;font-weight:600}td{color:#365e48;border-color:#e4f1e7}td:first-child{color:#286648}
-.units-row,.settings summary{color:#3c6851}.dimension-diagram{background:#edfcf4;border-color:#b5dfc9;color:#278b65}.dimension-diagram svg text{fill:#3e7759}
-.field{color:#345e47;font-weight:600}.field input,.field select,.job-qty{color:#1e4935;border-color:#b5d5c0;background:#fdfffd}
-.field input{font-size:13px;font-weight:500}.field input:focus,.field select:focus,.job-qty:focus{outline:none;border-color:#20a878;box-shadow:0 0 0 3px #28ad7e1a}
-.field .field-unit,.unit-text{color:#587e63}.unit-text{float:right}.field-hint{color:#506d70}.field-hint b{color:#286b4a}
-.field input[aria-invalid=true]{border-color:#e07c75;background:#fff6f5}.inspector-separator{background:#e0ecdf}
-.settings,.export-settings{border-color:#d9e9d9}.export-settings{background:#f5fcf6}.export-settings .check-label{color:#476e50}
-.validation-errors{background:#fff1f2;border-color:#f4b7bc;color:#a31c26}.canvas-error{background:#fffaf5f5;border-color:#e9c39b;color:#874010}
-.project-card .card-icon{background:#e4f8ec;border-color:#b9dfc7;color:#188453}.project-card p{color:#506d70}
-.empty-state{background:#fff;border-color:#b0d3b9;color:#506d70}.empty-state b{color:#326c46}.delete-link{color:#b42318}
-.app-footer{border-color:#d7e7d7;color:#506d70}.app-footer a{color:#0f766e}
-dialog{border-color:#bdd8c3;box-shadow:0 24px 100px #173c4030}dialog::backdrop{background:#173c4065}
-.job-summary{background:#ebf9ee;border-color:#c1e0c6;color:#3f7047}.job-item{border-color:#e0ecdf}
-.pattern-icon{background:#eaf9ed;border-color:#bedfc5;color:#218450}.job-item-main p,.help-dialog p{color:#506d70}
-.job-item-actions button{color:#0f766e}.job-item-actions button:last-child{color:#b42318}
-.toast{background:#194b3a;border-color:#69a98a;color:#fff;box-shadow:0 8px 25px #123a2a30}
-@media(max-width:760px){.field input{font-size:16px}.library .pattern-info b{font-size:11px}.library .pattern-info small{font-size:8px}}
-@media print{.canvas{background:white}.panel,.canvas-card,.parts-card,.metric{box-shadow:none}}
+/* Original workshop palette with a dark pattern library. */
+.library{background:#122b24;border-color:#294b39;box-shadow:0 8px 24px #122b2414}
+.library .panel-heading h2{color:#f0f6eb}
+.library .tiny-label{color:#b3c8a8}
+.library .count{background:#2c4936;border-color:#4d6b4e;color:#e0edd5}
+.library .search{background:#213a30;border-color:#526951;color:#bdd3b2}
+.library .search input{color:#f0f6eb}
+.library .search input::placeholder{color:#b4c9ab}
+.library .pattern-list{scrollbar-color:#5f7d5b transparent}
+.library-footer{background:#0e231c;border-color:#2f4c35;color:#c4d9b6}
+.library-footer small{color:#acc59d}
+.library-footer .engine-dot{background:#91d9a0}
+.library .pattern-button{background:#253f34;border-color:#3d5c46;color:#f0f6eb}
+.library .pattern-button:hover{background:#345c43;border-color:#7b9f75}
+.library .pattern-info b{color:#f0f6eb}
+.library .pattern-info small{color:#c4d5bc}
+.library .pattern-icon{background:#345241;border-color:#55745b;color:#b9d9aa}
+.library .pattern-button.active{background:#167453;border-color:#72d9aa;box-shadow:inset 3px 0 0 #aef0c5}
+.library .pattern-button.active .pattern-info b{color:#fff}
+.library .pattern-button.active .pattern-info small{color:#d3f4dc}
+.library .pattern-button.active .pattern-icon{background:#226b4b;border-color:#8ace9c;color:#e1f7d8}
+.library .pattern-select-dot{background:#c1f5ce}
+.library .categories button{background:#294536;color:#d5e5cd}
+.library .categories button:hover{background:#3b5c40}
+.library .categories button.active{background:#167453;color:#fff}
+.library .no-patterns{color:#c4d9b6}
+
+.unit-text{float:right}
