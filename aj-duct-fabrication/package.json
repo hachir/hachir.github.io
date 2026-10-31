@@ -1,0 +1,14 @@
+{
+  "name": "aj-duct-fabrication",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent HVAC flat-pattern workbench and full-scale DXF exporter",
+  "scripts": {
+    "test": "node --test tests/engine.test.cjs",
+    "verify:dxf": "python3 tests/verify_dxf.py",
+    "build": "node scripts/build.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

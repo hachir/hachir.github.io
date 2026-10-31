@@ -1,0 +1,4 @@
+dist/
+tests/fixtures/
+node_modules/
+.openai/
